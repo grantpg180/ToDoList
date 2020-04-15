@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	   <link rel="stylesheet" href="Lab-1.css">
+	<title>To Do List</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="boostrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">  </head>
+</head>
+<body>
+	<div class = "container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="header">My To Do List</h1>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-12">
+				<ul class="list" style="list-style-type:none;">
+					<!--<span class="trash fa fa-trash"></span>-->
+				</ul>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-8">
+				<form>
+					<input class="words" type="text" id="input" name="input">
+				</form>		
+			</div>
+			<div class="col-sm-4">
+				  <!--<span onclick="newElement()" class="addBtn">Add</span>-->
+				<button onclick="button()" id="button" type="submit" class="btn btn-success btn-lg button">+</button>
+			</div>
+		</div>			
+<script type="text/javascript" src="Lab-1.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 	<script src="/__/firebase/7.12.0/firebase-app.js"></script>
+	<script src="/__/firebase/init.js"></script>
+
+</body>
+</html>

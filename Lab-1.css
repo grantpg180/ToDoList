@@ -1,0 +1,17 @@
+.header {
+	background-color: green;
+	color: white;
+	padding: 40px;
+	text-align: center;
+}
+
+ul li:nth-child(odd) {
+	background:	#ddd;
+}
+
+ul li:hover {
+	background: yellow;
+}
+#button {
+	background-color: blue;
+}
